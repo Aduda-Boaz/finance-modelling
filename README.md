@@ -14,7 +14,6 @@ You can see [the app live here](https://aduda-boaz.github.io/finance-modelling/)
 
 You can see [the video presentation](https://www.loom.com/share/87958aaeef2f48eba2c9c556be65b871)
 
-
 ## Setup
 
 ### Clone this repository

@@ -55,6 +55,8 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Aduda-Boaz/finance-modelling/issues).
 
+Thanks to [Sakwa Nelson](https://www.behance.net/sakwadesignstudio)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!

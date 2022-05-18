@@ -55,7 +55,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Aduda-Boaz/finance-modelling/issues).
 
-Thanks to [Sakwa Nelson](https://www.behance.net/sakwadesignstudio)
+I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)).
 
 ## Show your support
 

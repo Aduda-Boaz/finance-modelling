@@ -11,8 +11,8 @@ const App = () => (
   <Router>
     <div className="App">
       <Routes>
-        <Route path="/company-profile" element={<Home />} />
         <Route path="/:companySymbol" element={<Company />} />
+        <Route path="/company-profile" element={<Home />} />
       </Routes>
     </div>
   </Router>

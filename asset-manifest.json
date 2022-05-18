@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/finance-modelling/static/css/main.b4a338ec.css",
-    "main.js": "/finance-modelling/static/js/main.42931a28.js",
+    "main.js": "/finance-modelling/static/js/main.ea7d82e5.js",
     "index.html": "/finance-modelling/index.html",
     "main.b4a338ec.css.map": "/finance-modelling/static/css/main.b4a338ec.css.map",
-    "main.42931a28.js.map": "/finance-modelling/static/js/main.42931a28.js.map"
+    "main.ea7d82e5.js.map": "/finance-modelling/static/js/main.ea7d82e5.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a338ec.css",
-    "static/js/main.42931a28.js"
+    "static/js/main.ea7d82e5.js"
   ]
 }

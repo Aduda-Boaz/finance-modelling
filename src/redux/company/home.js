@@ -19,13 +19,12 @@ export const fetchCompaniesSuccess = (payload) => ({
 });
 
 export const fetchComp = () => async (dispatch) => {
-  const responseDowjones = await fetch('https://financialmodelingprep.com/api/v3/dowjones_constituent?apikey=c72f83b1dfc59f79c4cdee3c9b93c7f4');
+  const responseDowjones = await fetch('https://financialmodelingprep.com/api/v3/dowjones_constituent?apikey=db0b4c8add691463c952ec6896c9d51b');
   const dataDowjones = await responseDowjones.json();
   const infoDowjones = dataDowjones.map((item) => ({
     symbol: item.symbol,
     name: item.name,
-    sectore: item.sector,
-    exchange: 'Dow Jones Market Index',
+    exchange: 'Dow Jones Industrial Average (DJIA)',
   }));
   const info = [...infoDowjones];
   dispatch(fetchCompaniesSuccess(info));

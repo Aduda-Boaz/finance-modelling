@@ -1,20 +1,21 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Home from './components/Home';
+import Company from './components/Company';
 import './App.css';
 
-function App() {
-  return (
+const App = () => (
+  <Router>
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:companySymbol" element={<Company />} />
+      </Routes>
     </div>
-  );
-}
+  </Router>
+);
 
 export default App;

@@ -19,7 +19,7 @@ export const fetchDataSuccess = (payload) => ({
 });
 
 export const fetchData = (company) => async (dispatch) => {
-  const response = await fetch(`https://financialmodelingprep.com/api/v3/profile/${company}?apikey=db0b4c8add691463c952ec6896c9d51b`);
+  const response = await fetch(`https://financialmodelingprep.com/api/v3/profile/${company}?apikey=c72f83b1dfc59f79c4cdee3c9b93c7f4`);
   const data = await response.json();
   const info = Object.entries(data).map(([key, item]) => ({
     companyName: item.companyName,

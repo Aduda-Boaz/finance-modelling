@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-You can see [the app live here](https://aduda-boaz.github.io/finance-modelling/)
+You can see [the app live here](https://cozy-halva-d34ad6.netlify.app)
 
 ## Video Presentation
 

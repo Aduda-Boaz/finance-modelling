@@ -5,7 +5,7 @@ const initialState = [];
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_SUCCESS:
-      return action.payload;
+      return ([...action.payload]);
     default:
       return state;
   }
@@ -28,13 +28,20 @@ export const fetchData = (company) => async (dispatch) => {
     ceo: item.ceo,
     country: item.country,
     address: item.address,
+    fullTimeEmployees: item.fullTimeEmployees,
     phone: item.phone,
     website: item.website,
     currency: item.currency,
+    exchange: item.exchange,
     exchangeShortName: item.exchangeShortName,
     sector: item.sector,
+    ipoDate: item.ipoDate,
     mktCap: item.mktCap,
+    lastDiv: item.lastDiv,
     price: item.price,
+    isin: item.isin,
+    changes: item.changes,
+    cik: item.cik,
     range: item.range,
     image: item.image,
     id: key,

@@ -6,8 +6,9 @@ Array [
     className="header"
   >
     <a
-      className=""
-      href="/company-profile"
+      aria-current="page"
+      className="active"
+      href="/"
       onClick={[Function]}
     >
       <svg
@@ -31,7 +32,7 @@ Array [
       </svg>
     </a>
     <p>
-      Stock Company Information
+      Company
     </p>
     <ul
       className="icons"
@@ -90,7 +91,7 @@ Array [
     </ul>
   </header>,
   <h1>
-    Please wait while loading ...
+    Wait while loading ...
   </h1>,
 ]
 `;

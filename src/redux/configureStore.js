@@ -1,11 +1,11 @@
 import { configureStore, combineReducers, applyMiddleware } from '@reduxjs/toolkit';
 import { logger } from 'redux-logger';
 import thunk from 'redux-thunk';
-import companyReducer from './company/company';
 import homeReducer, { fetchCompanies } from './company/home';
+import companyReducer from './company/company';
 
 const reducer = combineReducers({
-  companyReducer, homeReducer,
+  homeReducer, companyReducer,
 });
 
 const thunkMiddleware = applyMiddleware(thunk, logger);

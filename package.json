@@ -1,7 +1,6 @@
 {
   "name": "finance-modelling",
   "version": "0.1.0",
-  "homepage": "https://Aduda-Boaz.github.io/finance-modelling",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",

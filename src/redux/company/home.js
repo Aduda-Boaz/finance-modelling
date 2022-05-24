@@ -5,7 +5,7 @@ const initialState = [];
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_COMPANIES_SUCCESS:
-      return action.payload;
+      return ([...action.payload]);
     default:
       return state;
   }
@@ -24,8 +24,7 @@ export const fetchComp = () => async (dispatch) => {
   const infoDowjones = dataDowjones.map((item) => ({
     symbol: item.symbol,
     name: item.name,
-    sectore: item.sector,
-    exchange: 'Dow Jones Market Index',
+    exchange: 'Dow Jones Industrial Average (DJIA)',
   }));
   const info = [...infoDowjones];
   dispatch(fetchCompaniesSuccess(info));

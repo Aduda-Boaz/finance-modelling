@@ -9,7 +9,7 @@ import './styles/Nav.css';
 const Nav = ({ title }) => (
   <header className="header">
     {
-      (title !== 'Stock Companies Information') ? <NavLink to="/company-profile"><IoIosArrowBack data-testid="back" /></NavLink> : <p />
+      (title !== 'Stock Companies Information') ? <NavLink to="/"><IoIosArrowBack data-testid="back" /></NavLink> : <p />
     }
 
     {
